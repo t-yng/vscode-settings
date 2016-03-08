@@ -133,5 +133,11 @@
         "key": "ctrl+g",
         "command": "closeFindWidget",
         "when": "editorTextFocus && findWidgetVisible"
+    },
+    {
+      "key": "ctrl+shift+f",
+      "command": "editor.action.format",
+      "when": "editorTextFocus"
     }
+
 ]
